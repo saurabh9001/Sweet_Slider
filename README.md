@@ -1,68 +1,37 @@
-# Sweet Slider
+# Sweet Slider 🍩
 
-A SwiftUI donut ordering demo app focused on polished UI interactions and clear project structure.
+A SwiftUI donut shop demo exploring animations, haptic feedback, and clean UI patterns.
 
-## Overview
+## Features
 
-This project currently contains a UI-first implementation with dummy data.
-The app demonstrates:
-- Hero-style donut carousel
-- Product card and quantity stepper
+- Hero carousel with smooth slide animations
+- Haptic feedback on interactions
+- Responsive quantity stepper
 - Cart and profile pages
-- Haptic feedback on slide change and add-to-cart
+- Observable state management
 
-## Project Structure
+## Architecture
 
-```text
-Sweet_Slider/
-  Core/
-    AppPage.swift          # Typed navigation state (home/cart/profile)
-    UIConstants.swift      # Shared animation and timing constants
-  Models/
-    Donut.swift            # Donut model + seed data
-  Stores/
-    CartStore.swift        # Observable cart state and pricing logic
-  Components/
-    HomeComponents.swift   # Reusable UI components (slide, stepper, styles)
-  ContentView.swift        # Home screen composition and interaction logic
-  PagesView.swift          # Cart and Profile screens
-  Sweet_SliderApp.swift    # App entry point
-  Assets.xcassets/         # Icons and donut assets
-```
+Clean, beginner-friendly SwiftUI structure:
+- **Core/** — Navigation enums and shared constants
+- **Models/** — Data models with seed data
+- **Stores/** — Observable state management (@Observable CartStore)
+- **Components/** — Reusable UI views and styles
+- **ContentView.swift** — Home screen composition
+- **PagesView.swift** — Cart and Profile screens
 
-## Architecture Notes
-
-This codebase follows a pragmatic beginner-friendly SwiftUI architecture:
-- Keep domain models in `Models`
-- Keep mutable business state in `Stores`
-- Keep reusable views/styles in `Components`
-- Keep shared enums/constants in `Core`
-- Keep top-level page composition in `ContentView` and page-specific screens in `PagesView`
-
-Why this structure:
-- Easier onboarding for new developers
-- Reduced file size and cognitive load
-- Better separation of UI rendering and state logic
-
-## Run the App
+## Getting Started
 
 1. Open `Sweet_Slider.xcodeproj` in Xcode
 2. Select the `Sweet_Slider` scheme
-3. Run on iOS Simulator or device
+3. Run on iOS Simulator or device (iOS 17+)
 
-## Current Scope
+## Next Steps
 
-- UI and interaction prototype
-- Local in-memory cart state
-- Dummy product data
-
-## Suggested Next Steps
-
-1. Add a dedicated ViewModel per page (`HomeViewModel`, `CartViewModel`)
-2. Move copy/strings to localizable resources
-3. Add snapshot and unit tests
-4. Add persistence layer for cart state
-5. Replace placeholder checkout with real flow
+- Add ViewModels per page
+- Implement persistence for cart state
+- Add unit tests for CartStore
+- Integrate real backend API
 
 ## UI Screenshots
 
@@ -79,12 +48,3 @@ Below are the current UI screens from the app.
 | Cart | Profile |
 |---|---|
 | <img src="UI/Cart%20Page.png" alt="Cart Page" width="320" /> | <img src="UI/Profile%20page.png" alt="Profile Page" width="320" /> |
-
-### Raw Assets
-
-- [UI/Donut-1.png](UI/Donut-1.png)
-- [UI/Donut-2.png](UI/Donut-2.png)
-- [UI/Donut-3.png](UI/Donut-3.png)
-- [UI/Donut-4.png](UI/Donut-4.png)
-- [UI/Cart Page.png](UI/Cart%20Page.png)
-- [UI/Profile page.png](UI/Profile%20page.png)
