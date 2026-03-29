@@ -63,4 +63,14 @@ Why this structure:
 3. Add snapshot and unit tests
 4. Add persistence layer for cart state
 5. Replace placeholder checkout with real flow
-# Sweet_Slider
+
+## UI Screenshots
+
+Screenshots are available in the `UI/` folder:
+
+- Home carousel: [UI/Donut-1.png](UI/Donut-1.png)
+- Home carousel variation: [UI/Donut-2.png](UI/Donut-2.png)
+- Home carousel variation: [UI/Donut-3.png](UI/Donut-3.png)
+- Home carousel variation: [UI/Donut-4.png](UI/Donut-4.png)
+- Cart page: [UI/Cart Page.png](UI/Cart%20Page.png)
+- Profile page: [UI/Profile page.png](UI/Profile%20page.png)
