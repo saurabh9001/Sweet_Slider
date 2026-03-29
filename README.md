@@ -68,20 +68,17 @@ Why this structure:
 
 Below are the current UI screens from the app.
 
-### Home
+| Home 1 | Home 2 |
+|---|---|
+| <img src="UI/Donut-1.png" alt="Home Screen 1" width="320" /> | <img src="UI/Donut-2.png" alt="Home Screen 2" width="320" /> |
 
-![Home - Screen 1](UI/Donut-1.png)
-![Home - Screen 2](UI/Donut-2.png)
-![Home - Screen 3](UI/Donut-3.png)
-![Home - Screen 4](UI/Donut-4.png)
+| Home 3 | Home 4 |
+|---|---|
+| <img src="UI/Donut-3.png" alt="Home Screen 3" width="320" /> | <img src="UI/Donut-4.png" alt="Home Screen 4" width="320" /> |
 
-### Cart
-
-![Cart Page](UI/Cart%20Page.png)
-
-### Profile
-
-![Profile Page](UI/Profile%20page.png)
+| Cart | Profile |
+|---|---|
+| <img src="UI/Cart%20Page.png" alt="Cart Page" width="320" /> | <img src="UI/Profile%20page.png" alt="Profile Page" width="320" /> |
 
 ### Raw Assets
 
