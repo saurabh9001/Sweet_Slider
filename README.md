@@ -66,11 +66,28 @@ Why this structure:
 
 ## UI Screenshots
 
-Screenshots are available in the `UI/` folder:
+Below are the current UI screens from the app.
 
-- Home carousel: [UI/Donut-1.png](UI/Donut-1.png)
-- Home carousel variation: [UI/Donut-2.png](UI/Donut-2.png)
-- Home carousel variation: [UI/Donut-3.png](UI/Donut-3.png)
-- Home carousel variation: [UI/Donut-4.png](UI/Donut-4.png)
-- Cart page: [UI/Cart Page.png](UI/Cart%20Page.png)
-- Profile page: [UI/Profile page.png](UI/Profile%20page.png)
+### Home
+
+![Home - Screen 1](UI/Donut-1.png)
+![Home - Screen 2](UI/Donut-2.png)
+![Home - Screen 3](UI/Donut-3.png)
+![Home - Screen 4](UI/Donut-4.png)
+
+### Cart
+
+![Cart Page](UI/Cart%20Page.png)
+
+### Profile
+
+![Profile Page](UI/Profile%20page.png)
+
+### Raw Assets
+
+- [UI/Donut-1.png](UI/Donut-1.png)
+- [UI/Donut-2.png](UI/Donut-2.png)
+- [UI/Donut-3.png](UI/Donut-3.png)
+- [UI/Donut-4.png](UI/Donut-4.png)
+- [UI/Cart Page.png](UI/Cart%20Page.png)
+- [UI/Profile page.png](UI/Profile%20page.png)
